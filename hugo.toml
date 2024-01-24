@@ -5,7 +5,7 @@ canonifyURLs = true
 languageCode = 'en-us'
 title = ' site'
 theme = 'ananke'
-custom_css = ["css/hugo-easy-gallery.css","css/stl.css"]
+custom_css = ["css/hugo-easy-gallery.css"]
 
 [params]
 featured_image = "images/landscape.jpg"
