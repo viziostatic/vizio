@@ -7,10 +7,3 @@ title = ' site'
 theme = 'ananke'
 custom_css = ["css/hugo-easy-gallery.css"]
 
-[params]
-featured_image = "images/landscape.jpg"
-[menu]
-  [[menu.main]]
-    identifier = "hugo-post"
-    name = "Hugo Post"
-    url = "/post"
