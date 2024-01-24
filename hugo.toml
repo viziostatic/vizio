@@ -1,5 +1,16 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Site'
-theme = 'ananke'
 
+baseURL = 'https://viziostatic.github.io/vizio'
+canonifyURLs = true
+
+languageCode = 'en-us'
+title = ' site'
+theme = 'ananke'
+custom_css = ["css/stl.css"]
+
+[params]
+featured_image = "images/landscape.jpg"
+[menu]
+  [[menu.main]]
+    identifier = "hugo-post"
+    name = "Hugo Post"
+    url = "/post"
