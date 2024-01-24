@@ -1,0 +1,37 @@
+<header class="header parto" id="heads">
+
+  
+    {{ $assetd := resources.Get "/logo.png" }}
+    
+    
+  
+    <script defer language="javascript" type="text/javascript"  src="/js/header.js"></script>
+    
+    <div class="logo_section">
+
+                   <a href="/"> <img  id = "logo" alt="mtuci logo" src="{{ $assetd.RelPermalink }}" /></a>
+
+    </div>
+    <div class ="header_section" >
+
+
+      <div onclick="location.href='/projects'"class="boxer3" href="/new">
+        <div class="btn btn-three">
+         Новинки
+        </div>
+      </div>
+      <div onclick="location.href='/projects'"class="boxer3" href="/catalogue">
+        <div class="btn btn-three">
+         Каталог
+        </div>
+      </div>
+      <div onclick="location.href='/publications'"class="boxer3" href="/contacts">
+        <div class="btn btn-three">
+         Контакты
+        </div>
+      </div>
+      
+      </div>
+</div>
+
+</header>

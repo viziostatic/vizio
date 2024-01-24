@@ -1,0 +1,139 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+
+/*
+========================
+      header
+========================
+*/
+.header{
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 255, 255);
+
+  width: 100%;
+  font-family: monospace;
+  height: 15vh;
+
+  border-bottom: ridge;
+  border-color: #000000;
+  position: relative;
+
+}
+.header_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+
+.logo_section{
+
+  bottom: 0;
+  left: 0;
+
+  width: 30vh;
+  margin-top: 2vh;
+  margin-left:1vh ;
+
+
+
+  text-align: center;
+
+
+  margin-right: 0vh;
+}
+
+.header_section{
+  width: 70%;
+  position: absolute;
+  float: left;
+  justify-content:left;
+  display: flex;
+  align-items:flex-end;
+
+  margin-bottom: 5vh;
+  bottom: 0px;
+  right: 0px;
+}
+
+.bottom-line{
+  margin: 20px 0;
+  padding: 0;
+  height: 10px;
+  border: none;
+  border-top: 1px solid #333;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+/*
+
+/*
+========================
+      BUTTON THREE
+========================
+*/
+.btn {
+
+
+	height: 6vh;
+  padding-top: 1.3vh;
+	text-align:center;
+	width: 20vh;
+	cursor: pointer;
+}
+.btn-three {
+
+	color: #000000;
+	transition: all 0.5s;
+	position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+/*
+========================
+      MAIN
+========================
+*/
+.zagl{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vh;
+  margin-left: 34vw;
+
+}
+.gallerywrap{
+  margin-left: 10vw;
+}
