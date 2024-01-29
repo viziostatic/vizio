@@ -46,8 +46,8 @@
   left: 0;
 
   width: 20vh;
-  margin-top: 4vh;
-  margin-left:1vh ;
+  margin-top: 3vh;
+  margin-left:2vh ;
 
 
 
@@ -60,9 +60,9 @@
   .logo_section{
 
    
-  
+    margin-top: 1vh;
     width: 30vh;
-    margin-left: 10vw;
+    margin-left: 4vw;
   
   
   

@@ -9,11 +9,12 @@ Grid Layout Styles
 */
 .gallerywrap{
     margin-left: 5vw;
+    width: 100%;
 }
 .gallery {
     overflow: hidden;
     margin: 10px;
-    max-width: 1000px;
+    max-width: 1400px;
 }
 .gallery .box {
     float: left;
