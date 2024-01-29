@@ -37,15 +37,21 @@
   left: 0;
   top: 0;
 }
+.b{
+  font-family: 'Montserrat', sans-serif;
+  margin-left:2vh ;
+  font-size:2vw;
+}
 
 
 
 .logo_section{
+ 
 
   bottom: 0;
   left: 0;
 
-  width: 20vh;
+  width: 25vw;
   margin-top: 3vh;
   margin-left:2vh ;
 
@@ -104,7 +110,7 @@
 	height: 6vh;
   padding-top: 1.3vh;
 	text-align:center;
-	width: 20vh;
+	width: 25vw;
 	cursor: pointer;
 }
 .btn-three {
