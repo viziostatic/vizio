@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="parto">
-  <div class = "zagl">Новинки</div>
+
   <div class="gallerywrap">
   {{ range where .Pages "Section" "new" }}
       {{ range where .Pages "Params.tags" "intersect" (slice "index2") }}
@@ -8,7 +8,7 @@
       {{ end }}
       {{ end }}
     </div>
-  <div class = "zagl">каталог</div>
+  
   <div class="gallerywrap">
   {{ range where .Pages "Section" "sell" }}
       {{ range where .Pages "Params.tags" "intersect" (slice "index3") }}

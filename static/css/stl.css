@@ -1,5 +1,22 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+/*
+========================
+      shortcodes etc
+========================
+*/
+.titleo{
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 5vh;
+}
+.gallerywrap{
+  margin-left: 6vw;
+  width: 100%;
+}
+.box{
+  width: 20vw;
+}
 
 /*
 ========================
@@ -28,12 +45,13 @@
 }
 
 
+
 .logo_section{
 
   bottom: 0;
   left: 0;
 
-  width: 30vh;
+  width: 20vh;
   margin-top: 2vh;
   margin-left:1vh ;
 
@@ -43,6 +61,18 @@
 
 
   margin-right: 0vh;
+}
+@media (width > 992px) {
+  .logo_section{
+
+   
+  
+    width: 30vh;
+    margin-left: 10vw;
+  
+  
+  
+  }
 }
 
 .header_section{
@@ -133,7 +163,4 @@
   font-size: 3vh;
   margin-left: 34vw;
 
-}
-.gallerywrap{
-  margin-left: 10vw;
 }
