@@ -9,7 +9,7 @@ Grid Layout Styles
 */
 .gallerywrap{
     margin-left: 5vw;
-    width: 100%;
+   width: fit-content;
 }
 .gallery {
     overflow: hidden;
